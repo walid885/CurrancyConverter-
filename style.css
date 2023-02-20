@@ -1,0 +1,42 @@
+body{
+    background: yellow;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: darkcyan;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+.currancyCOntainer{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.currancyCOntainer select {
+    padding: 10px;
+}
+.currancyCOntainer input{
+border: 0;
+background: transparent;
+font-size: 25px;
+text-align: right;
+color: aliceblue;
+
+}
+.exchaRa{
+    font-size: 16px;
+    font-weight: 600;
+}
+select:focus,input:focus{
+    outline: 0;
+}
